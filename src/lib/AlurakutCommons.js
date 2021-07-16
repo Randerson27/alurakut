@@ -34,6 +34,8 @@ export function AlurakutMenu({ githubUser }) {
           ))}
         </nav>
 
+        
+
         <nav>
           <a href={`/logout`}>
             Sair
@@ -54,7 +56,7 @@ export function AlurakutMenu({ githubUser }) {
 }
 AlurakutMenu.Wrapper = styled.header`
   width: 100%;
-  background-color: #308BC5;
+  background-color: #290066;
   .alurakutMenuProfileSidebar {
     background: white;
     position: fixed;
@@ -88,12 +90,12 @@ AlurakutMenu.Wrapper = styled.header`
     hr {
       margin-top: 12px;
       margin-bottom: 8px;
-      border-color: transparent;
-      border-bottom-color: #ECF2FA;
+      border-color: #8c8c8c;
+      border-bottom-color: #8c8c8c;
     }
   }
   .container {
-    background-color: #308BC5;
+    background-color: #290066;
     padding: 7px 16px;
     max-width: 1110px;
     margin: auto;
